@@ -128,7 +128,7 @@ const changeTodoText = () => {
     }
   }
 
-const enterKeyCheck = () => {
+const enterKeyCheck = e => {
     if(e.key === 'Enter'){
     addNewTodo()
 }
