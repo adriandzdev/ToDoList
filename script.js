@@ -124,7 +124,7 @@ const changeTodoText = () => {
    
    
     if(allTodos.length === 0) {
-        errorInfo.textContent = No tasks on the list'
+        errorInfo.textContent = 'No tasks on the list'
     }
   }
 
