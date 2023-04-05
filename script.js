@@ -113,7 +113,7 @@ const changeTodoText = () => {
         popup.style.display = 'none'
         popupInfo.textContent = ''
     } else {
-        popupInfo.textContent = 'Musisz dodać jakąś treść'
+        popupInfo.textContent = 'You need to add some content'
     }
 }
 
@@ -124,7 +124,7 @@ const changeTodoText = () => {
    
    
     if(allTodos.length === 0) {
-        errorInfo.textContent = 'Brak zadań na liście'
+        errorInfo.textContent = No tasks on the list'
     }
   }
 
